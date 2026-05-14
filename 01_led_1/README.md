@@ -1,45 +1,16 @@
-# STM32 Bare Metal - Proyectos embebidos en C
+# 1LED - LED parpadeando con SysTick
 
-Colección de proyectos de electrónica embebida programados en C para STM32 en **bare metal** (sin HAL ni librerías). Código directo sobre los registros.
+Proyecto mínimo que hace parpadear un LED en **PB12** usando **SysTick no bloqueante**.  
+Sin HAL, sin delay bloqueante. C puro sobre registros.
 
-## 🛠️ Hardware
-- **Micro:** STM32F401CCU6 (Black Pill)
-- **IDE:** PlatformIO + VS Code
-- **Protocolo:** DFU / ST-Link
+---
 
-## 📚 Proyectos
+## 🔌 Conexión
 
-| # | Proyecto | Descripción |
-|---|----------|-------------|
-| 1 | 1LED | LED parpadeando con delay bloqueante |
-| 2 | boton2led | Un botón alterna entre dos LEDs |
-| 3 | (próximo) | ... |
+| Componente | Pin |
+|------------|-----|
+| LED | PB12 |
 
-## 🎯 Objetivo
-Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupciones, timers, UART.
+<img width="744" height="992" alt="led01" src="https://github.com/user-attachments/assets/8fe1f72d-a03f-4727-97f5-38c456c2a137" />
 
-## 📄 Licencia: MIT
-
-# STM32 Bare Metal - Встраиваемые проекты на C
-
-Коллекция проектов по встраиваемой электронике на C для STM32 в режиме **bare metal** (без HAL и библиотек). Прямая работа с регистрами.
-
-> *"Дело не в том, чтобы выучить STM32, а в том, чтобы научиться читать даташит и управлять железом."*
-
-## 🛠️ Оборудование
-- **Микроконтроллер:** STM32F401CCU6 (Black Pill)
-- **Среда:** PlatformIO + VS Code
-- **Протокол загрузки:** DFU / ST-Link
-
-## 📚 Проекты
-
-| # | Проект | Описание |
-|---|--------|----------|
-| 1 | 1LED | Мигание светодиодом с блокирующей задержкой |
-| 2 | boton2led | Одна кнопка переключает два светодиода |
-| 3 | (следующий) | ... |
-
-## 🎯 Цель
-Показать прогрессивное обучение bare metal: регистры, прерывания, таймеры, UART.
-
-## 📄 Лицензия: MIT
+<img width="744" height="992" alt="led02" src="https://github.com/user-attachments/assets/60d786dc-d80d-4235-8278-7dfc5954cbd1" />
