@@ -11,9 +11,9 @@ Colección de proyectos de electrónica embebida programados en C para STM32 en 
 
 | # | Proyecto | Descripción |
 |---|----------|-------------|
-| 1 | 1LED | LED parpadeando con delay bloqueante | [1LED](./01_led_1)
-| 2 | boton1led | Un botón con un LEDs |
-| 3 | boton2led | Un botón alterna entre dos LEDs |
+| 1 | LED parpadeando con delay bloqueante | [1LED](./01_led_1) |
+| 2 | Un botón con un LED | [boton1led](./02_boton_1_led) |
+| 3 | Un botón alterna entre dos LEDs | [boton2led](./03_boton_2_led) |
 
 ## 🎯 Objetivo
 Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupciones, timers, UART.
@@ -34,9 +34,9 @@ Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupcion
 
 | # | Проект | Описание |
 |---|--------|----------|
-| 1 | 1LED | Мигание светодиодом с блокирующей задержкой | 
-| 2 | boton1led | Одна кнопка управляет одним светодиодом | 
-| 3 | boton2led | Одна кнопка переключает два светодиода | 
+| 1 | Мигание светодиодом с блокирующей задержкой | [1LED](./01_led_1) |
+| 2 | Одна кнопка управляет одним светодиодом | [boton1led](./02_boton_1_led) |
+| 3 | Одна кнопка переключает два светодиода | [boton2led](./03_boton_2_led) |
 
 ## 🎯 Цель
 Показать прогрессивное обучение bare metal: регистры, прерывания, таймеры, UART.
