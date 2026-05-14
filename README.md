@@ -11,7 +11,7 @@ Colección de proyectos de electrónica embebida programados en C para STM32 en 
 
 | # | Proyecto | Descripción |
 |---|----------|-------------|
-| 1 | 1LED | LED parpadeando con delay bloqueante | 
+| 1 | 1LED | LED parpadeando con delay bloqueante | [1LED](./01_led_1)
 | 2 | boton1led | Un botón con un LEDs |
 | 3 | boton2led | Un botón alterna entre dos LEDs |
 
