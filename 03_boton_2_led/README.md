@@ -1,45 +1,21 @@
-# STM32 Bare Metal - Proyectos embebidos en C
+# boton2led - Un botón alterna entre dos LEDs
 
-Colección de proyectos de electrónica embebida programados en C para STM32 en **bare metal** (sin HAL ni librerías). Código directo sobre los registros.
+Proyecto que alterna el encendido de dos LEDs (PA5 y PB5) con un solo botón (PA0).  
+Cuando se pulsa el botón, un LED se enciende y el otro se apaga.  
+Sin HAL, sin interrupciones. C puro sobre registros.
 
-## 🛠️ Hardware
-- **Micro:** STM32F401CCU6 (Black Pill)
-- **IDE:** PlatformIO + VS Code
-- **Protocolo:** DFU / ST-Link
+---
 
-## 📚 Proyectos
+## 🔌 Conexión
 
-| # | Proyecto | Descripción |
-|---|----------|-------------|
-| 1 | 1LED | LED parpadeando con delay bloqueante |
-| 2 | boton2led | Un botón alterna entre dos LEDs |
-| 3 | (próximo) | ... |
+| Componente | Pin |
+|------------|-----|
+| Botón (pulsador) | PA0 |
+| LED 1 | PA5 |
+| LED 2 | PB5 |
 
-## 🎯 Objetivo
-Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupciones, timers, UART.
+<img width="496" height="372" alt="boton2led01" src="https://github.com/user-attachments/assets/385e5585-ac7f-4659-afb5-2413e162b97e" />
 
-## 📄 Licencia: MIT
+<img width="496" height="372" alt="boton2led02" src="https://github.com/user-attachments/assets/0321a8e9-09f8-4d18-8e38-c42c9534e41b" />
 
-# STM32 Bare Metal - Встраиваемые проекты на C
-
-Коллекция проектов по встраиваемой электронике на C для STM32 в режиме **bare metal** (без HAL и библиотек). Прямая работа с регистрами.
-
-> *"Дело не в том, чтобы выучить STM32, а в том, чтобы научиться читать даташит и управлять железом."*
-
-## 🛠️ Оборудование
-- **Микроконтроллер:** STM32F401CCU6 (Black Pill)
-- **Среда:** PlatformIO + VS Code
-- **Протокол загрузки:** DFU / ST-Link
-
-## 📚 Проекты
-
-| # | Проект | Описание |
-|---|--------|----------|
-| 1 | 1LED | Мигание светодиодом с блокирующей задержкой |
-| 2 | boton2led | Одна кнопка переключает два светодиода |
-| 3 | (следующий) | ... |
-
-## 🎯 Цель
-Показать прогрессивное обучение bare metal: регистры, прерывания, таймеры, UART.
-
-## 📄 Лицензия: MIT
+<img width="496" height="372" alt="boton2led03" src="https://github.com/user-attachments/assets/421de47d-af23-43b6-a367-c790657589ce" />
