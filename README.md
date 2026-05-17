@@ -34,6 +34,7 @@ Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupcion
 ## 📚 Проекты
 
 | # | Описание | Проект |
+|:-|:-|:-|
 | 1 | Мигание светодиодом с блокирующей задержкой | [1LED](./01_led_1) |
 | 2 | Одна кнопка управляет одним светодиодом | [boton1led](./02_boton_1_led) |
 | 3 | Одна кнопка переключает два светодиода | [boton2led](./03_boton_2_led) |
