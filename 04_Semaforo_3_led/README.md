@@ -50,8 +50,8 @@ Sin HAL, sin delay bloqueante. C puro sobre registros.
 | 1200 |         ⚫ выключен  | ⚫ выключен    | 🟡 ВКЛЮЧЕН |
 | 1800 | (цикл повторяется) | | |
 
-<img width="992" height="744" alt="01" src="https://github.com/user-attachments/assets/ac916928-7936-4e95-aa85-6db7e05b0a3b" />
+<img width="496" height="372" alt="01" src="https://github.com/user-attachments/assets/3da6bdf1-303a-44da-b976-5f785166b9ca" />
 
-<img width="992" height="744" alt="02" src="https://github.com/user-attachments/assets/24d1cacb-5018-47de-9af9-79cdb46e9bce" />
+<img width="496" height="372" alt="02" src="https://github.com/user-attachments/assets/4f493db4-5b7a-4eb0-9ea9-0ce28d1e3869" />
 
-<img width="992" height="744" alt="03" src="https://github.com/user-attachments/assets/b2040d91-0c4d-4a9e-8203-10ff1f35506a" />
+<img width="496" height="372" alt="03" src="https://github.com/user-attachments/assets/b93b5049-a0de-4563-8251-eff9cee48b7b" />
