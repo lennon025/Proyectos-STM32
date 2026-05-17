@@ -9,11 +9,11 @@ Colección de proyectos de electrónica embebida programados en C para STM32 en 
 
 ## 📚 Proyectos
 
-| # | Proyecto | Descripción |
-|---|----------|-------------|
+| # | Descripción | Proyecto |
 | 1 | LED parpadeando con delay bloqueante | [1LED](./01_led_1) |
 | 2 | Un botón con un LED | [boton1led](./02_boton_1_led) |
 | 3 | Un botón alterna entre dos LEDs | [boton2led](./03_boton_2_led) |
+| 4 | Semáforo con tres LEDs y SysTick | [Semaforo](./04_Semaforo_3_led) |
 
 ## 🎯 Objetivo
 Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupciones, timers, UART.
@@ -32,11 +32,13 @@ Demostrar aprendizaje progresivo de embebido bare metal: registros, interrupcion
 
 ## 📚 Проекты
 
-| # | Проект | Описание |
-|---|--------|----------|
+| # | Описание | Проект |
 | 1 | Мигание светодиодом с блокирующей задержкой | [1LED](./01_led_1) |
 | 2 | Одна кнопка управляет одним светодиодом | [boton1led](./02_boton_1_led) |
 | 3 | Одна кнопка переключает два светодиода | [boton2led](./03_boton_2_led) |
+| 4 | Светофор с тремя светодиодами и SysTick | [Semaforo](./04_Semaforo_3_led) |
+
+
 
 ## 🎯 Цель
 Показать прогрессивное обучение bare metal: регистры, прерывания, таймеры, UART.
